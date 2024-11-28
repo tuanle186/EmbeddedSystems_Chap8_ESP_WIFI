@@ -189,6 +189,7 @@ void system_init(){
 	  lcd_init();
 	  uart_init_esp();
 	  setTimer2(50);
+	  sensor_init();
 }
 
 uint8_t count_led_debug = 0;
